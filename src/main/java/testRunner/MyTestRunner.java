@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
     features = "C:\\Users\\Vijesh V R\\eclipse-workspace\\BDD\\src\\main\\resources\\features\\apitest.feature",
     glue = {"stepDefinitions"},
 //    tags = "@tag",
-    dryRun = true,
+    dryRun = false,
     plugin = {"pretty", "html:target/cucumber-reports"}
 )
 
